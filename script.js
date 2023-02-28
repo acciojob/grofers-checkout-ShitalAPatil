@@ -1,15 +1,10 @@
-// const getSumBtn = document.createElement("button");
-// getSumBtn.append("Get Total Price");
-// document.body.appendChild(getSumBtn);
+const getSumBtn = document.createElement("button");
+getSumBtn.append("Get Total Price");
+document.body.appendChild(getSumBtn);
 
-// const getSum = () => {
-// //Add your code here
-  
-// };
+const getSum = () => {
 
-// getSumBtn.addEventListener("click", getSum);
-
-const calculateTotalBtn = document.getElementById('calculate-total-btn');
+	const calculateTotalBtn = document.getElementById('calculate-total-btn');
 		calculateTotalBtn.addEventListener('click', calculateTotal);
 
 		function calculateTotal() {
@@ -21,3 +16,12 @@ const calculateTotalBtn = document.getElementById('calculate-total-btn');
 			const totalPriceCell = document.getElementById('ans');
 			totalPriceCell.textContent = totalPrice.toFixed(2);
 		}
+
+//Add your code here
+  
+};
+
+getSumBtn.addEventListener("click", getSum);
+
+
+		
